@@ -1,0 +1,32 @@
+span{
+    color:red;
+}
+button:hover{
+    background-color: aqua;
+}
+h2{
+    display:none;
+}
+input:checked+h1{
+    color:red;
+}
+input:checked +h1+ h2{
+    color:red; display:block;
+}
+/* doubt */
+input:checked+h1+h2 + h3{
+    color:brown; 
+}
+/* doubt */
+p::first-leter{
+    color:red;
+}
+p::before{
+    content:"😁";
+}
+p::first-line{
+    color:blue;
+}
+p::after{
+    content:"😂";
+}
