@@ -18,7 +18,7 @@ input:checked+h1+h2 + h3{
     color:brown; 
 }
 /* doubt */
-p::first-leter{
+p::first-letter{
     color:red;
 }
 p::before{
